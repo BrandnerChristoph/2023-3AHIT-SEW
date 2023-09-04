@@ -1,4 +1,7 @@
-﻿namespace _2023_09_04_Intro.Classes
+﻿using _2023_09_04_Intro.Interfaces;
+
+namespace _2023_09_04_Intro.Classes
+
 {
     public abstract class Employee : IPayable
     {
