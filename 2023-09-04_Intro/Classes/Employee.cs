@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using _2023_09_04_Intro.Interfaces;
-
-namespace _2023_09_04_Intro.Classes
+﻿namespace _2023_09_04_Intro.Classes
 {
     public abstract class Employee : IPayable
     {
