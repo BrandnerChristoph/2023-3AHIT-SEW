@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Interfaces_Devices_2023_09_13.Classes.Printer" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="1" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAIAEBQA=</HashCode>
+      <FileName>Classes\Printer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Interfaces_Devices_2023_09_13.Classes.Scanner" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="4.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAIAAAQA=</HashCode>
+      <FileName>Classes\Scanner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Interfaces_Devices_2023_09_13.Classes.MultifunctionalDevice" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="1" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAIAEAQA=</HashCode>
+      <FileName>Classes\MultifunctionalDevice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Interfaces_Devices_2023_09_13.Interfaces.IDevice">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAIAAAQA=</HashCode>
+      <FileName>Interfaces\IDevice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces_Devices_2023_09_13.Interfaces.IPrintable">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Interfaces\IPrintable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces_Devices_2023_09_13.Interfaces.IScanable">
+    <Position X="9" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IScanable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
