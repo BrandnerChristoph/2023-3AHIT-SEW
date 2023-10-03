@@ -1,0 +1,41 @@
+﻿<Window x:Class="Polymorphismus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Polymorphismus"
+        mc:Ignorable="d"
+        Title="Polymorphismus" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel>
+            <GroupBox Header="Zeitausgabe">
+                <StackPanel>
+                    <Label>abstrakte Klasse</Label>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Margin="5" Click="Button_12HFormat">HH:mm (12 Stunden-Format)</Button>
+                        <Button Margin="5" Click="Button_24HFormat">HH:mm (24 Stunden-Format)</Button>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="überladene Methoden">
+                <StackPanel>
+                    <Label Height="60" HorizontalContentAlignment="Center" x:Name="cnt_out"></Label>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Margin="5" Click="Button_Click">Test()</Button>
+                        <Button Margin="5" Click="Button_Click_1">Test(int)</Button>
+                        <Button Margin="5" Click="Button_Click_2">Test(string)</Button>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="überladene auf Basis von Typprüfung">
+                <StackPanel>
+                    <Label Height="60" HorizontalContentAlignment="Center" x:Name="secondContent"></Label>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label>Eingabewert</Label><TextBox x:Name="inTypCheck" Width="90"></TextBox>
+                    </StackPanel>
+                    <Button Margin="5" Click="Button_Click_CallTestDynamic">Aufruf von Test</Button>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+    </StackPanel>
+</Window>
