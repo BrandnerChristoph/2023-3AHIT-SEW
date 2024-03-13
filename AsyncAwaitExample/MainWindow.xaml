@@ -1,0 +1,18 @@
+﻿<Window x:Class="AsyncAwaitExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncAwaitExample"
+        mc:Ignorable="d"
+        Title="AsyncAwait" Height="350" Width="800">
+    <StackPanel>
+        <StackPanel Margin="5 20" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Width="120" Height="30" Click="BtnClick_RunSync">Synchron</Button>
+            <TextBox Width="60" Margin="10 0" x:Name="repeat_txtB" 
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="14">10</TextBox>
+            <Button Width="120" Height="30" Click="BtnClick_RunAsync">Asynchron</Button>            
+        </StackPanel>
+        <TextBlock Margin="50 10" Height="200" x:Name="result_txtBlock"></TextBlock>
+    </StackPanel>
+</Window>
